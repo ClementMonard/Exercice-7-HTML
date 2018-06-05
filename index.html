@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice </title>
+  </head>
+  <body>
+    <form class="form" action="index.html" method="post">
+      <fieldset class="bleu">
+        <legend class="lbleu">Votre identité </legend>
+        <label for="nom">1. Votre nom :</label>
+        <input type="text" name="nom" id="nom" placeholder="nom">
+      </br>
+        <label for="prenom">2. Votre prénom :</label>
+        <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+      </br>
+        <label for="mail">3. Votre mail :</label>
+        <input type="text" name="mail" id="mail" placeholder="Adresse mail">
+      </fieldset>
+      <fieldset class="violet">
+        <legend class="lviolet">Adresse de livraison</legend>
+        <label for="adresse">1. Adresse :</label>
+        <textarea name="adresse" rows="8" cols="30"></textarea>
+      </br>
+        <label for="codepostal">2. Code postal :</label>
+        <input type="text" name="codepostal" id="codepostal" placeholder="Code postal">
+      </br>
+      <label for="ville">3. Ville :</label>
+      <input type="text" name="ville" id="ville" placeholder="Ville">
+      </fieldset>
+      <fieldset class="rose">
+        <legend class="lrose">Informations de réglements</legend>
+        <p>1. Type de carte bancaire :</p>
+        <input type="radio" name="visa" id="visa"><label for="visa">VISA</label></br>
+        <input type="radio" name="mastercard" id="mastercard"><label for="mastercard">Mastercard</label>
+      </br>
+        <label for="text">2. Numéro de carte :</label>
+        <input type="numc" name="numc" id="numc" placeholder="Numéro de carte">
+      </br>
+        <label for="codes">3. Code sécurité :</label>
+        <input type="text" name="codes" id="codes" placeholder="Code de sécurité">
+      </br>
+        <label for="titu">4. Nom du titulaire :</label>
+        <input type="text" name="titu" id="titu" placeholder="Nom du titulaire">
+      </fieldset>
+      <input type="submit" name="subbutton" value="J'achète">
+    </form>
+  </body>
+</html>
