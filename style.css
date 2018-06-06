@@ -1,23 +1,40 @@
 .bleu {
-  background-color: #60c2e7;
+  background-color: #2574A9;
 }
 
 .lbleu {
-  background-color: #60c2e7;
+  background-color: #2574A9;
 }
 
 .lviolet {
-  background-color: #8338ea;
+  background-color: #9A12B3;
 }
 
 .violet {
-  background-color: #8338ea;
+  background-color: #9A12B3;
 }
 
 .rose {
-  background-color: #ff25c0;
+  background-color: #DB0A5B;
 }
 
 .lrose {
-  background-color: #ff25c0;
+  background-color: #DB0A5B;
+}
+
+fieldset {
+  border: 0px;
+  margin-top: 5px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.typeCB {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
 }
