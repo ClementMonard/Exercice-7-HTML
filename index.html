@@ -7,40 +7,44 @@
   </head>
   <body>
     <form class="form" action="index.html" method="post">
+                    <!-- IDENTITE -->
       <fieldset class="bleu">
         <legend class="lbleu">Votre identité </legend>
         <label for="nom">1. Votre nom :</label>
         <input type="text" name="nom" id="nom" placeholder="Nom">
-      </br>
+        <div class=""></div>
         <label for="prenom">2. Votre prénom :</label>
         <input type="text" name="prenom" id="prenom" placeholder="Prénom">
-      </br>
+        <div class=""></div>
         <label for="mail">3. Votre mail :</label>
         <input type="text" name="mail" id="mail" placeholder="Adresse mail">
       </fieldset>
+                    <!-- LIVRAISON -->
       <fieldset class="violet">
         <legend class="lviolet">Adresse de livraison</legend>
         <label for="adresse">1. Adresse :</label>
         <textarea name="adresse" rows="8" cols="30"></textarea>
-      </br>
+        <div class=""></div>
         <label for="codepostal">2. Code postal :</label>
         <input type="text" name="codepostal" id="codepostal" placeholder="Code postal">
-      </br>
-      <label for="ville">3. Ville :</label>
-      <input type="text" name="ville" id="ville" placeholder="Ville">
+        <div class=""></div>
+        <label for="ville">3. Ville :</label>
+        <input type="text" name="ville" id="ville" placeholder="Ville">
       </fieldset>
+                    <!-- PAIEMENT -->
       <fieldset class="rose">
         <legend class="lrose">Informations de réglements</legend>
         <p>1. Type de carte bancaire :</p>
-        <input class="typeCB" type="radio" name="typeCarte" id="visa"><label for="visa">VISA</label></br>
+        <input class="typeCB" type="radio" name="typeCarte" id="visa"><label for="visa">VISA</label>
+        <div class=""></div>
         <input class="typeCB"type="radio" name="typeCarte" id="mastercard"><label for="visa">Mastercard</label>
-      </br>
+        <div class=""></div>
         <label for="text">2. Numéro de carte :</label>
         <input type="numc" name="numc" id="numc" placeholder="Numéro de carte">
-      </br>
+        <div class=""></div>
         <label for="codes">3. Code sécurité :</label>
         <input type="text" name="codes" id="codes" placeholder="Code de sécurité">
-      </br>
+        <div class=""></div>
         <label for="titu">4. Nom du titulaire :</label>
         <input type="text" name="titu" id="titu" placeholder="Nom du titulaire">
       </fieldset>
